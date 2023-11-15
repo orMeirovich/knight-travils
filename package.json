@@ -1,0 +1,19 @@
+{
+  "name": "knight-travils",
+  "version": "1.0.0",
+  "description": "knight travil game ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/orMeirovich/knight-travils.git"
+  },
+  "author": "orMeirovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orMeirovich/knight-travils/issues"
+  },
+  "homepage": "https://github.com/orMeirovich/knight-travils#readme"
+}
