@@ -1,0 +1,118 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+button{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+
+button:hover{
+background-color: rgba(21, 21, 21, 0.943);
+}
+
+h1{
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 3px 3px black;
+    margin-bottom: 10px;
+}
+
+#board{
+    width: 480px;
+    height: 480px;
+    background-color: rgb(54, 54, 54);
+    align-self: center;
+    margin-top: 50px;
+    border-radius: 4px;
+    box-shadow: 0.2em 0.2em 1em rgba(255, 255, 255, 0.694);
+    display: grid;
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+    padding: 2px;
+    
+}
+
+.cell{
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.finish{
+    width: 60px;
+    height: 60px;
+
+}
+
+.knight{
+    width: 36px;
+    cursor: move;
+}
+
+
+
+#status
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #f10707 0%,
+    #3e0606 29%,
+    #680606 67%,
+    #130507 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+      font-family: 'Bungee', sans-serif;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.number{
+    font-size: 30px;
+    font-family: 'Bungee', sans-serif;
+    margin:0;
+    margin-top: -10px;
+}
